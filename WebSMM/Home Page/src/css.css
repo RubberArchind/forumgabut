@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap");
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.aside_left-container{
+    border: 1px solid #D4ADCF;
+    background-color: #D4ADCF;
+    width: 300px;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+.aside_left-container header{
+    text-align: center;
+    margin-top: 38px;
+}
+.aside_left-container header h1{
+    color: #685F74;
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 32px;
+}
+.aside_left-profile-container figure{
+    float: left;
+}
+.aside_left-profile-container{
+    margin-left: 20px;
+    margin-top: 118px;
+    height: 60px;
+}
+.aside_left-profile-container div{
+    float: left;
+    margin-left: 17px;
+    margin-top: 8px;
+}
+.aside_left-profile-title p{
+    color: black;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+}
+.aside_left-profile-name p{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    color: #685F74;
+}
+.aside_left-option-container{
+    margin-top: 51px;
+    margin-left: 59px;
+}
+.aside_left-option-container figure{
+    float: left;
+    margin-right: 15px;
+}
+.aside_left-option-container div{
+    margin-bottom: 21px;
+}
+.aside_left-option-container div:hover{
+    color: rgb(58, 58, 58);
+}
+.aside_left-option-container a{
+    text-decoration: none;
+    font-family: Fredoka One;
+    font-weight: 400;
+    font-size: 18px;
+    color: #856084;
+}
+.aside_left-optionbtm-container{
+    margin-top: 380px;
+    margin-left: 59px;
+}
+.aside_left-optionbtm-container figure{
+    float: left;
+    margin-right: 15px;
+}
+.aside_left-optionbtm-container div{
+    margin-bottom: 21px;
+}
+.aside_left-optionbtm-container div:hover{
+    color: rgb(58, 58, 58);
+}
+.aside_left-optionbtm-container a{
+    text-decoration: none;
+    font-family: Fredoka One;
+    font-weight: 400;
+    font-size: 18px;
+    color: #856084;
+}
+.main-container{
+    width: 919px;
+}
+.main-sticker{
+    margin-top: 71px;
+    margin-left: 225px;
+}
+.main-content{
+    margin-top: 71px;
+}
+.main-content header h1{
+    text-align: center;
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(104, 95, 116, 0.75);
+}
+.main-content-item_container{
+    margin-top: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.main-content-item_container img{
+    width: 340px;
+    height: 325px;
+}
+.aside_right-container{
+    width: 300px;
+}
+.aside_right-trending{
+    margin-top: 70px;
+}
+.aside_right-trending h1{
+    font-family: Fredoka One;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(104, 95, 116, 0.8);
+    text-align: center;
+}
+.aside_right-trending-content{
+    border: 1px solid rgba(202, 156, 225, 0.4);
+    background-color: rgba(202, 156, 225, 0.4);
+    margin-top: 16px;
+    margin-left: 27px;
+    text-align: center;
+    height: 354px;
+    width: 245px;
+    border-radius: 76px;
+}
+.aside_right-trending-content li{
+    font-family: Fredoka One;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(104, 95, 116, 1);
+    margin-bottom: 36px;
+}
+.aside_right-trending-content ol{
+    margin-top: 57px;
+}
+.aside_right-products{
+    margin-top: 81px;
+}
+.aside_right-products h1{
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(133, 96, 132, 0.85);
+}
+.aside_right-products-search_container button {
+    border: 2px solid rgba(202, 156, 225, 1);
+    float: right;
+    padding: 6px 10px;
+    background: white;
+    font-size: 17px;
+    cursor: pointer;
+    border-left-color: white;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.aside_right-products-search_container {
+    margin-top: 20px;
+    margin-right: 47px;
+    float: right;
+}
+.aside_right-products-search_container input{
+      height: 36px;
+      border-top-left-radius: 16px;
+      border-bottom-left-radius: 16px;
+      border: 2px solid rgba(202, 156, 225, 1);
+      border-right-color: white;
+}
+.aside_right-products-details{
+    margin-top: 20px;
+}

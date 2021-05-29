@@ -1,0 +1,93 @@
+body{
+  display: flex;
+  flex-flow: wrap row;
+}
+.aside-container{
+  width: 467px;
+}
+.aside-header{
+  margin-top: 130px;
+  text-align: center;
+}
+.aside-header h1{
+  font-size: 32px;
+  font-family: Poppins;
+  font-weight: 600;
+  color: rgba(104, 95, 116, 1);
+}
+.aside-createAccount{
+  margin-left: 109px;
+}
+.aside-createAccount div{
+  margin-top: 20px;
+  font-size: 18px;
+  font-family: Poppins;
+  font-weight: 500;
+  color: rgba(104, 95, 116, 1);
+}
+.aside-createAccount input{
+  margin-top: 5px;
+  width: 255px;
+  height: 32px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(196, 196, 196, 0.45);
+}
+.aside-nav-createAccountBtn{
+  margin-top: 60px;
+  margin-left: 109px;
+  width: 255px;
+}
+.aside-nav-createAccountBtn img:hover{
+  background-color: rgb(0, 0, 170);
+  border-radius: 10px;
+}
+.aside-figure-or{
+  margin-top: 60px;
+  margin-left: 109px;
+}
+.aside-nav-signUp{
+  margin-top: 45px;
+  margin-left: 109px;
+}
+.aside-nav-signUp div{
+  margin-top: 15px;
+}
+.aside-nav-signUp img:hover{
+  border-radius: 10px;
+  background-color: rgb(153, 153, 153);
+}
+.aside-nav-alreadyAccount{
+  text-decoration: none;
+  margin-top: 184px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6F6382;
+}
+.aside-nav-alreadyAccount a{
+  text-decoration: none;
+  color: #2A83EB;
+}
+.aside-nav-alreadyAccount a:hover{
+  color: #174274;
+}
+.main-container{
+  width: 1052px;
+  height: 1024px;
+  background-color: rgba(202, 156, 225, 0.15);
+}
+.main-figure-top{
+  float: right;
+}
+.main-desc{
+  position: absolute;
+  margin-top: 104px;
+  margin-left: 120px;
+  width: 773px;
+}
+.main-figure-btm{
+  float: left;
+  margin-top: 795px;
+}

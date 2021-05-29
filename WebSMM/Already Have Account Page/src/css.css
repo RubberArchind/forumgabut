@@ -1,0 +1,114 @@
+body{
+  width: 1440px;
+  height: 1024px;
+  overflow-x: auto;
+}
+.LeftContainer{
+  width: 467px;
+  height: 1024px;
+  padding-top: 130px;
+  background-color: white;
+  margin-left: 0px;
+  float: left;
+}
+.RightContainer{
+  width: 1050px;
+  height: 1024px;
+  margin-right: -79px;
+  float: right;
+  background-color: rgba(202, 156, 225, 0.15);
+}
+.GambarOrang{
+  width: 772px;
+  height: 613px;
+  margin-top: 104px;
+  margin-bottom: 307px;
+  margin-left: 155px;
+  margin-right: 100px;
+}
+.HiasanKanan{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.HiasanBawah{
+  position: absolute;
+  margin-left: -210px;
+  margin-top: -230px;
+}
+.JudulBesar{
+  width: 285px;
+  margin-left: 90px;
+}
+.JudulBesar h1{
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 38px;
+  color: #685F74;
+}
+.DeskripsiRightContainer{
+  margin-top: 30px;
+}
+.DeskripsiRightContainer p{
+  font-family: QuickSand;
+  font-weight: bold;
+  color: #685F74;
+}
+.CreateAccountContainer{
+  margin-top: 20px;
+  margin-left: 105px;
+}
+.CreateAccountContainer input{
+  border : 0.1px solid rgba(196, 196, 196, 0.45);
+  background-color: rgba(196, 196, 196, 0.45);
+  border-radius: 10px;
+  height: 32px;
+  width: 250px;
+  margin-top: 5px;
+}
+.CreateAccountContainer div{
+  margin-top: 20px;
+  font-family: QuickSand;
+  font-weight: bold;
+}
+.CreateAccountBtn{
+  margin-top: 60px;
+  margin-left: 100px;
+}
+.CreateAccountBtn img:hover{
+  border-radius: 10px;
+  background-color: #2a2977;
+}
+.OR{
+  margin-top: 60px;
+  margin-left: 100px;
+}
+.SignGoogleContainer{
+  margin-top: 60px;
+  margin-left: 100px;
+}
+.SignGoogleContainer img:hover{
+  border-radius: 10px;
+  background-color: #d3d3d3;
+}
+.SignFBContainer{
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.SignFBContainer img:hover{
+  border-radius: 10px;
+  background-color: #d3d3d3;
+}
+.AlreadyAccountContainer{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 184px;
+  margin-left: 165px;
+}
+.AlreadyAccountContainer{
+  font-family: QuickSand;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+}
