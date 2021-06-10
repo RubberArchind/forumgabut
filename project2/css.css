@@ -12,9 +12,6 @@
     width: 615px;
 }
 .btn-order-your_cart{
-    position: fixed;
-    margin-top: -240px;
-    margin-left: 410px;
 }
 .shadow-lg{
     display: flex;
@@ -31,22 +28,30 @@
     border: 1px solid #9c9c9c
 }   
 .yourCart-container{
-    width: 500px;
+    width: 450px;
     height: 179px;
     margin-left: 30px;
-    overflow-y: auto;
-    overflow-x: auto;
 }
 .flex-row-right{
-    margin-top: 30px;
+    margin-top: 27px;
     width: 553px;
     height: 300px;
 }
-
 .yourCart-item{
     display: flex;
 }
 #item{
     margin: 10px;
     margin-left: 0px;
+}
+.input-group{
+    width: 333px;
+}
+.yourCart-itemList{
+    height: 140px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+.container-costumer_information input{
+    padding: 5px;
 }
