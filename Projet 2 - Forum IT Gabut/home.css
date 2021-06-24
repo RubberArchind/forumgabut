@@ -49,18 +49,9 @@
 }
 
 @media screen and (max-width: 768px) {
-    .dropdown.dropdown-lg {
-        position: static !important;
-    }
     #adv-search {
         width: 300px;
         margin: 0 auto;
-    }
-}
-@media screen and (max-width: 1035px) {
-    .dropdown.dropdown-lg .dropdown-menu {
-        width: 100%;
-        float: left;
     }
 }
 @media screen and (max-width: 480px) {
